@@ -59,7 +59,7 @@
 		We are using pdf to fit a distribution of training data, 
 		And to predict new point comes on calculations of conditional probablilty.
 		
- <img src="Pic/pdf.png" width="1000">
+ <img src="Pic/pdf.png" width="500">
 
 	The next figure is the fitting gaussian distribution under one features used in classifer.
 	
