@@ -10,9 +10,9 @@
 
 # Example of generative classifiers:
 
-    1 - naive Bayes classifier. </br>
-    2 - linear discriminant analysis.</br>
-    3 - Hidden Markov Models.</br>
+    1 - naive Bayes classifier. 
+    2 - linear discriminant analysis.
+    3 - Hidden Markov Models.
   
  # The main idea:
 
@@ -77,7 +77,7 @@
 		
 	For example: 
 		In the next figure, the result of accuracy [ I used diabete features called ( 'BloodPressure' ) ] is
- <img src="Pic/2.png" width="500">
+ <img src="Pic/2.png" width="1000">
  
  	And their normal distributions is looks like:
 	
@@ -109,3 +109,8 @@
 	   And variables are dependent, Also called [ mulitvariate Gaussian ].
 
 # References
+[1] https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729
+[2] https://en.wikipedia.org/wiki/Bayes%27_theorem
+[3] https://en.wikipedia.org/wiki/Generative_model
+[4] https://luminousmen.com/post/data-science-bayes-theorem
+[5] https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/
