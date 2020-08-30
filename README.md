@@ -19,6 +19,7 @@
     1 – fit the probability for each classes labels separately in our training data.
     2 – fit the probability distribution for each classes labels in our training data.
     3 – predict new point comes with maximize joint probability distribution.(Bayes' Theorem)
+    
  # How Generative model is classifying data in one dimension ?
  	- The Gaussian in one dimension is called Univariate gaussian.
 	- It’s specified by just two parameter (mean, standard deviation)
@@ -69,5 +70,37 @@
 	Predict
 	classify new point X pick the class label with highest (prior probability * P(x))
 		where P(X): Is the Probability Density Function.
+	
+# Concolusion
+	First, I tested classifier with different one dimension features, 
+		Then I want to look at the accuracy, and compare it with Bell curve of normal distribution.
+		
+	For example: 
+		In the next figure, the result of accuracy [ I used diabete features called ( 'BloodPressure' ) ] is
+ <img src="Pic/2.png" width="500">
+ 
+ 	And their normal distributions is looks like:
+	
+ <img src="Pic/1.png" width="1000" >
+
+	Final: we understand that the accuracy isn't good it's ( 61% ), 
+		And if you looks at normal distributions the two classes labels dosn't separate well,
+		So the accuracy is lower ( 61% ).
+		
+	Let's take another example:
+		The next figure, we looks at the accuracy is heigher than above example [ I used feature called ( 'SkinThickness' ) ],
+		Because if we looks at the normal distributions the classes labels might be separate well.
+	
+ <img src="Pic/3.png" width="1000" >
+ 
+	Let's take a final example:
+		The accuracy of the next classifier used feature ( 'Glucose' ) is the best of the two examples above,
+		And if we looks at the normal distributions the classes labels separated well, So the accuracy if higher than other.
+		
+ <img src="Pic/4.png" width="1000" >
+ 
+
+	
+ 
 		
 
