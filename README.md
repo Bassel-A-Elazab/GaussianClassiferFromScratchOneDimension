@@ -130,3 +130,4 @@
 [3] https://en.wikipedia.org/wiki/Generative_model </br>
 [4] https://luminousmen.com/post/data-science-bayes-theorem </br>
 [5] https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/ </br>
+[6] https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html
