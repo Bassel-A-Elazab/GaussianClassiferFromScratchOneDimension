@@ -23,7 +23,8 @@
  	- The Gaussian in one dimension is called Univariate gaussian.
 	- It’s specified by just two parameter (mean, standard deviation)
   	- It used Bayes' rule for predicting/classifying new point.
-   There are many steps for predict labels, And classify data.
+	
+   # There are many steps for predict labels, And classify data.
 
 # 1. Bayes’ Theorem
 	
@@ -38,5 +39,16 @@
 		The variables are independent and P(B) dosn’t change, So we can removed it.
 	
 # 2. How Gaussian Classifier works ?
-	
+
+	Step One:
+	mean: Is the average of the numbers,
+		Calculates mean for each classes individually.
+ <img src="Pic/mu.png" width="500" >
+ 	
+	Step Two: 
+	standard deviation: Is a measure of the amount of variation or dispersion of a set of values.
+				- Calculates standard deviation for each classes individually.
+ <img src="Pic/std.png" width="500" >	
+ 	Where {X1, X2, …. , Xn} are the observed values of the sample items,  is the mean value of these observations, and N is the number of observations in the sample. 
+			
   
