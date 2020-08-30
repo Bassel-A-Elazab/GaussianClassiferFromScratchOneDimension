@@ -16,8 +16,8 @@
   
  # The main idea:
 
-    1 – fit the probability for each classes separately in our training data.
-    2 – fit the probability distribution for each classes in our training data.
+    1 – fit the probability for each classes labels separately in our training data.
+    2 – fit the probability distribution for each classes labels in our training data.
     3 – predict new point comes with maximize joint probability distribution.(Bayes' Theorem)
  # How Generative model is classifying data in one dimension ?
  	- The Gaussian in one dimension is called Univariate gaussian.
@@ -42,12 +42,12 @@
 
 	Step One:
 	mean: Is the average of the numbers,
-		Calculates mean for each classes individually.
+		Calculates mean for each classes labels individually.
  <img src="Pic/mu.png" width="500" >
  	
 	Step Two: 
 	standard deviation: Is a measure of the amount of variation or dispersion of a set of values.
-				- Calculates standard deviation for each classes individually.
+				- Calculates standard deviation for each classes labels individually.
  <img src="Pic/std.png" width="500" >	
  	Where {X1, X2, …. , Xn} are the observed values of the sample items,  is the mean value of these observations, and N is the number of observations in the sample. 
 	
@@ -56,8 +56,12 @@
 		Because we are working with continous vairables,
 		We are using Probabalility density function instead of using liklihood disscussed above.
 		The ( PDF ) is used to specify the probability of the random variable falling within a particular range of values.
-		We are using pdf to fit a distribution of training data, And to predict new point comes on calculations of conditional probablilty.
+		We are using pdf to fit a distribution of training data, 
+		And to predict new point comes on calculations of conditional probablilty.
 		
  <img src="Pic/pdf.png" width="500" >			
 
-  
+  	Step Four:
+	Predict
+	classify new point X pick the class label with highest (prior probability * P(x))
+		where P(X): Is the Probability Density Function.
