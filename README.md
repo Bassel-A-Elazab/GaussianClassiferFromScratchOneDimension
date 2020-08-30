@@ -125,8 +125,8 @@
 
 
 # References
-[1] https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729
-[2] https://en.wikipedia.org/wiki/Bayes%27_theorem
-[3] https://en.wikipedia.org/wiki/Generative_model
-[4] https://luminousmen.com/post/data-science-bayes-theorem
-[5] https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/
+[1] https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729 </br>
+[2] https://en.wikipedia.org/wiki/Bayes%27_theorem </br>
+[3] https://en.wikipedia.org/wiki/Generative_model </br>
+[4] https://luminousmen.com/post/data-science-bayes-theorem </br>
+[5] https://machinelearningmastery.com/joint-marginal-and-conditional-probability-for-machine-learning/ </br>
