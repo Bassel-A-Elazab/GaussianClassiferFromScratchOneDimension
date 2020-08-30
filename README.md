@@ -61,7 +61,13 @@
 		
  <img src="Pic/pdf.png" width="500" >			
 
+	The next figure is the fitting gaussian distribution under one features used in classifer.
+	
+ <img src="Pic/1.png" width="500" >
+ 
   	Step Four:
 	Predict
 	classify new point X pick the class label with highest (prior probability * P(x))
 		where P(X): Is the Probability Density Function.
+		
+
