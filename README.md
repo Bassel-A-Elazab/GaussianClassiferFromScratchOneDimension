@@ -101,6 +101,11 @@
  
 
 	
- 
-		
+  	At the End
+	- Gassian Classifer is good classifer, but isn't good when it used one feature.
+	- Gaussian isn't more accurate in one dimension and when variables are independent.
+	- Gaussian is easy,and used in many applications like (text classification, spam filtering, and recomender system).
+	- Gaussian is good classifer, more accurate, and more efficient, When it uses multi-dimension features,
+	   And variables are dependent, Also called [ mulitvariate Gaussian ].
 
+# References
