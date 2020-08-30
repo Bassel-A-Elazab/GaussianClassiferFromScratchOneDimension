@@ -93,9 +93,9 @@
 	
  <img src="Pic/1.png" width="1000" >
 
-	Final: we understand that the accuracy isn't good it's ( 61% ), 
+	Final: we understand that the accuracy isn't good it's ( 66% ), 
 		And if you looks at normal distributions the two classes labels dosn't separate well,
-		So the accuracy is lower ( 61% ).
+		So the accuracy is lower ( 66% ).
 		
 	Let's take another example:
 		The next figure, we looks at the accuracy is heigher than above example [ I used feature called ( 'SkinThickness' ) ],
