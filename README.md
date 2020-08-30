@@ -1,5 +1,6 @@
 # GaussianClassiferFromScratchOneDimension
 
+
 # Generative Model Approach
 
   - It’s simple, and powerful to build classifier.
@@ -8,11 +9,13 @@
   - It's a statistical model of the joint probability distribution on P(X|Y)
   - Describes how data is generated, in terms of a probabilistic model.
 
+
 # Example of generative classifiers:
 
     1 - naive Bayes classifier. 
     2 - linear discriminant analysis.
     3 - Hidden Markov Models.
+  
   
  # The main idea:
 
@@ -20,12 +23,16 @@
     2 – fit the probability distribution for each classes labels in our training data.
     3 – predict new point comes with maximize joint probability distribution.(Bayes' Theorem)
     
+    
  # How Generative model is classifying data in one dimension ?
+ 
  	- The Gaussian in one dimension is called Univariate gaussian.
 	- It’s specified by just two parameter (mean, standard deviation)
   	- It used Bayes' rule for predicting/classifying new point.
 	
+	
    # There are many steps for predict labels, And classify data.
+
 
 # 1. Bayes’ Theorem
 	
@@ -39,6 +46,7 @@
 	Note :
 		The variables are independent and P(B) dosn’t change, So we can removed it.
 	
+	
 # 2. How Gaussian Classifier works ?
 
 	Step One:
@@ -49,6 +57,7 @@
 	Step Two: 
 	standard deviation: Is a measure of the amount of variation or dispersion of a set of values.
 				- Calculates standard deviation for each classes labels individually.
+				
  <img src="Pic/std.png" width="500" >	
  	Where {X1, X2, …. , Xn} are the observed values of the sample items,  is the mean value of these observations, and N is the number of observations in the sample. 
 	
@@ -70,6 +79,7 @@
 	Predict
 	classify new point X pick the class label with highest (prior probability * P(x))
 		where P(X): Is the Probability Density Function.
+	
 	
 # Concolusion
 	First, I tested classifier with different one dimension features, 
@@ -107,6 +117,7 @@
 	- Gaussian is easy,and used in many applications like (text classification, spam filtering, and recomender system).
 	- Gaussian is good classifer, more accurate, and more efficient, When it uses multi-dimension features,
 	   And variables are dependent, Also called [ mulitvariate Gaussian ].
+
 
 # References
 [1] https://towardsdatascience.com/a-generative-approach-to-classification-17a0b5876729
