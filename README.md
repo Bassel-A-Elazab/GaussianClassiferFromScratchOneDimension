@@ -24,5 +24,15 @@
 	- It’s specified by just two parameter (mean, standard deviation)
   	- It used Bayes' rule for predicting/classifying new point.
 
-	# Bayes’ theorem
+# Bayes’ Theorem
+	
+ <img src="Pic/bays.png" width="500" >
+ 
+ 	Which is:
+		1. P(A|B) is the posterior probability or the probability of A to occur given event B already occurred.
+		2. P(B|A) is the likelihood, or the probability of B given A.
+		2. P(A), P(B) is the prior probability of event A and B to occur.
+		
+		
+	
   
