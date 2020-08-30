@@ -63,7 +63,7 @@
 
 	The next figure is the fitting gaussian distribution under one features used in classifer.
 	
- <img src="Pic/1.png" width="500" >
+ <img src="Pic/1.png" width="1000" >
  
   	Step Four:
 	Predict
