@@ -50,5 +50,13 @@
 				- Calculates standard deviation for each classes individually.
  <img src="Pic/std.png" width="500" >	
  	Where {X1, X2, …. , Xn} are the observed values of the sample items,  is the mean value of these observations, and N is the number of observations in the sample. 
-			
+	
+	Step Three:
+	Fit a gaussian distribution
+		Because we are working with continous vairables, We are using Probabalility density function instead of using liklihood disscussed above.
+		The ( PDF ) is used to specify the probability of the random variable falling within a particular range of values.
+		We are using pdf to fit a distribution of training data, And to predict new point comes on calculations of conditional probablilty.
+		
+ <img src="Pic/pdf.png" width="500" >			
+
   
