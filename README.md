@@ -74,7 +74,7 @@
 		
  <img src="Pic/pdf.png" width="500">
      
-   Where X is the new point wants to classify.
+   Where X is the new point wants to classify, And the mean & variance are calculated.
    
 	The next figure is the fitting gaussian distribution under one features used in classifer.
 	
