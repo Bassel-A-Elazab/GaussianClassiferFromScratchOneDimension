@@ -19,6 +19,8 @@
     1 – fit the probability for each classes separately in our training data.</br>
     2 – fit the probability distribution for each classes in our training data.</br>
     3 – predict new point comes with maximize joint probability distribution.(Bayes' Theorem)</br>
-  
+ # How Generative model is classifying data in one dimension ?
+    - The Gaussian in one dimension is called Univariate gaussian.
+	  - It’s specified by just two parameter (mean, standard deviation)
   
   
