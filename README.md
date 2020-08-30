@@ -54,12 +54,15 @@
 		Calculates mean for each classes labels individually.
  <img src="Pic/mu.png" width="500" >
  	
+   Where {X1, X2, …. , Xn} are the observed values of the sample items. (Training Data) 
+    
 	Step Two: 
 	standard deviation: Is a measure of the amount of variation or dispersion of a set of values.
 				- Calculates standard deviation for each classes labels individually.
 				
  <img src="Pic/std.png" width="500" >	
- 	Where {X1, X2, …. , Xn} are the observed values of the sample items,  is the mean value of these observations, and N is the number of observations in the sample. 
+ 	Where {X1, X2, …. , Xn} are the observed values of the sample items (Training Data), 
+	 is the mean value of these observations, and N is the number of observations in the sample. 
 	
 	Step Three:
 	Fit a gaussian distribution
@@ -70,7 +73,9 @@
 		And to predict new point comes on calculations of conditional probablilty.
 		
  <img src="Pic/pdf.png" width="500">
-
+     
+   Where X is the new point wants to classify.
+   
 	The next figure is the fitting gaussian distribution under one features used in classifer.
 	
  <img src="Pic/1.png" width="1000" >
