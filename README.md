@@ -78,7 +78,7 @@
    
 	The next figure is the fitting gaussian distribution under one features used in classifer.
 	
- <img src="Pic/1.png" width="1000" >
+ <img src="Pic/1.png" width="1500" >
  
   	Step Four:
 	Predict
@@ -92,11 +92,11 @@
 		
 	For example: 
 		In the next figure, the result of accuracy [ I used diabete features called ( 'BloodPressure' ) ] is
- <img src="Pic/2.png" width="1000">
+ <img src="Pic/2.png" width="1500">
  
  	And their normal distributions is looks like:
 	
- <img src="Pic/1.png" width="1000" >
+ <img src="Pic/1.png" width="1500" >
 
 	Final: we understand that the accuracy isn't good it's ( 66% ), 
 		And if you looks at normal distributions the two classes labels dosn't separate well,
@@ -106,13 +106,13 @@
 		The next figure, we looks at the accuracy is heigher than above example [ I used feature called ( 'SkinThickness' ) ],
 		Because if we looks at the normal distributions the classes labels might be separate well.
 	
- <img src="Pic/3.png" width="1000" >
+ <img src="Pic/3.png" width="1500" >
  
 	Let's take a final example:
 		The accuracy of the next classifier used feature ( 'Glucose' ) is the best of the two examples above,
 		And if we looks at the normal distributions the classes labels separated well, So the accuracy if higher than other.
 		
- <img src="Pic/4.png" width="1000" >
+ <img src="Pic/4.png" width="1500" >
  
 
 	
