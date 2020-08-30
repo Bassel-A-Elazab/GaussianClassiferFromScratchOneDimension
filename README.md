@@ -22,5 +22,7 @@
  # How Generative model is classifying data in one dimension ?
  	- The Gaussian in one dimension is called Univariate gaussian.
 	- It’s specified by just two parameter (mean, standard deviation)
-  
+  	- It used Bayes' rule for predicting/classifying new point.
+
+	# Bayes’ theorem
   
